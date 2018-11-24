@@ -20,7 +20,7 @@ using namespace std;
  * 
  */
 int main(int argc, char** argv) {
-    cout << "git" << endl;
+    cout << "github" << endl;
 
     return 0;
 }

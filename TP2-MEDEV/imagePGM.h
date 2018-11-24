@@ -25,7 +25,7 @@ class imagePGM {
         //Accesseurs
         int getLargeur() const;
         int getHauteur() const;
-        int getPixel(int i, int j) const;
+        int getPixel(int const i, int const j) const;
         
         void setLargeur(int const largeur);
         void setHauteur(int const hauteur);

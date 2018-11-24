@@ -1,10 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 #include "imagePGM.h"
+
+//Constructeurs
+imagePGM::imagePGM(){}
+
+imagePGM::imagePGM(imagePGM image){
+    largeur = image.getLargeur();
+    hauteur = image.getHauteur();
+    for (int i=0; i<hauteur ; i++){
+        for (int j=0; j<largeur ; j++){
+            pixels[i][j] = image.getPixel(i, j);
+        }
+    }
+}
 
 //Accesseurs
 int imagePGM::getLargeur() const{

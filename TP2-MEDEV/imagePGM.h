@@ -1,15 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/* 
- * File:   imagePGM.h
- * Author: Julien
- *
- * Created on 25 novembre 2018, 00:17
- */
 
 #ifndef IMAGEPGM_H
 #define IMAGEPGM_H

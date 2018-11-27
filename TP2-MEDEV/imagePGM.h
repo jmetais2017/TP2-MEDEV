@@ -2,12 +2,19 @@
 #ifndef IMAGEPGM_H
 #define IMAGEPGM_H
 
+#include <vector>
+#include <fstream>
+#include <string>
+#include <iostream>
+
+using namespace std;
+
 class imagePGM {
     
     private :
         int largeur;
         int hauteur;
-        int pixels[hauteur][largeur];
+        vector<vector<int>> pixels;
     
     public :
         //Accesseurs
@@ -22,10 +29,10 @@ class imagePGM {
         //Méthodes
         void lecture();
         void ecriture();
-        void histogramme();
+        //void histogramme();
         
-        void seuillage();
-        imagePGM difference(imagePGM image);
+        //void seuillage();
+        //imagePGM difference(imagePGM image);
         
         //Constructeurs
         imagePGM();
